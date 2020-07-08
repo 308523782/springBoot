@@ -1,0 +1,17 @@
+server:
+  prot: 8081
+
+
+person:
+  lastName: zhangshan${random.uuid}
+  age: 18
+  bass: false
+  birth: 2017/12/12
+  maps: {k1: v1,k2: v2}
+  lists:
+    - lishi
+    - zhaoliu
+    - wangwu
+  dog:
+    name: ${person.hello:hello}_小狗
+    age: 2
